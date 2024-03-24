@@ -5,7 +5,7 @@ Feature: Amazon Search
   With specifications: Camera Resolution - 20 MP and above, Model Year – 2023, Price Range between £200 - £250
   So I can purchase the phone
 
-  Scenario: List all the Samsung phones with specification as Camera Resolution - 20 MP and above, Model Year – 2023 & Price Range between £50 - £100
+  Scenario: List all the Samsung phones with specification as Camera Resolution - 20 MP and above, Model Year – 2023 & Price Range between £200 - £250
     Given I am on the Amazon home page
     And I click on hamburger menu bar
     And I click on Electronics And Computers
@@ -17,7 +17,7 @@ Feature: Amazon Search
     And I select Price Range between £"200" to £"250"
     And I click on Go button
     Then I can see list of products matching search criteria
-    And I can see only "Onida" products in the results
+    And I can see only "Samsung" products in the results
 
 
 

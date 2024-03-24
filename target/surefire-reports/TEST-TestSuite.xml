@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="17.704" tests="1" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="16.503" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -61,42 +61,5 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="runScenario" classname="runner.TestRunner" time="15.583">
-    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
-</failure>
-    <system-out><![CDATA[
-Scenario: List all the Samsung phones with specification as Camera Resolution - 20 MP and above, Model Year – 2023 & Price Range between £50 - £100 # ///Users/srinivastalla/Desktop/UBS/src/test/resources/features/productSearch.feature:8
-  Given I am on the Amazon home page                                                                                                                # org.amazon.stepdefs.HomePageStepDef.iAmOnTheAmazonHomePage()
-  And I click on hamburger menu bar                                                                                                                 # org.amazon.stepdefs.HomePageStepDef.i_click_on_hamburger_menu_bar()
-  And I click on Electronics And Computers                                                                                                          # org.amazon.stepdefs.HomePageStepDef.i_click_on_electronics_And_Computers()
-testing
-  And I click on Phones and Accessories                                                                                                             # org.amazon.stepdefs.HomePageStepDef.i_click_on_phones_and_Accessories()
-  And I click on Mobile Phones & Smartphones                                                                                                        # org.amazon.stepdefs.PhonesAndAccessoriesPageStepDef.i_click_on_mobile_phones_smartphones()
-  When I select brand as "Samsung"                                                                                                                  # org.amazon.stepdefs.SmartPhonesPageStepDef.i_select_brand_as(java.lang.String)
-  And I select Camera Resolution as "20 MP & above"                                                                                                 # org.amazon.stepdefs.SmartPhonesPageStepDef.i_select_camera_resolution_as(java.lang.String)
-  And I select Model Year as "2023"                                                                                                                 # org.amazon.stepdefs.SmartPhonesPageStepDef.i_select_model_year_as(java.lang.String)
-  And I select Price Range between £"200" to £"250"                                                                                                 # org.amazon.stepdefs.SmartPhonesPageStepDef.i_select_price_range_between_£_to_£(java.lang.String,java.lang.String)
-  And I click on Go button                                                                                                                          # org.amazon.stepdefs.SmartPhonesPageStepDef.I_click_on_go_button()
-  Then I can see list of products matching search criteria                                                                                          # org.amazon.stepdefs.SearchResultPageStepDef.i_can_see_list_of_phones()
-  And I can see only "Onida" products in the results                                                                                                # org.amazon.stepdefs.SearchResultPageStepDef.i_can_see_only_samsung_products_in_the_results(java.lang.String)
-      java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1577)
-	at org.testng.Assert.assertTrue(Assert.java:56)
-	at org.testng.Assert.assertTrue(Assert.java:66)
-	at org.amazon.pages.SearchResultPage.verifyProductDisplayed(SearchResultPage.java:31)
-	at org.amazon.stepdefs.SearchResultPageStepDef.i_can_see_only_samsung_products_in_the_results(SearchResultPageStepDef.java:23)
-	at ✽.I can see only "Onida" products in the results(file:///Users/srinivastalla/Desktop/UBS/src/test/resources/features/productSearch.feature:20)
-
-
-    Embedding screenshot [image/png 1696482 bytes]
-
-]]></system-out>
-    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Mar 24, 2024 7:51:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 123, returning the closest version; found: 122; Please update to a Selenium version that supports CDP version 123
-]]></system-err>
-  </testcase>
+  <testcase name="runScenario" classname="runner.TestRunner" time="15.433"/>
 </testsuite>
