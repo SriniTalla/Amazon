@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="7.757" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.6.3_1/libexec/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.6.3_1/libexec/conf"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/21.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.6.3_1/libexec"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/srinivastalla"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/21.0.1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="Launcher"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="21.0.1"/>
+    <property name="user.name" value="srinivastalla"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="14.3.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/kf/knfk239s7t1dpllht1sx30vc0000gn/T/"/>
+    <property name="java.version" value="21.0.1"/>
+    <property name="user.dir" value="/Users/srinivastalla/24032024/Amazon"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/srinivastalla/24032024/Amazon"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/srinivastalla/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="21.0.1"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.6.3_1/libexec/bin/m2.conf"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.6.3_1/libexec/lib/jansi-native"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="runScenario" classname="runner.TestRunner" time="5.446">
+    <failure message="Step [I click on hamburger menu bar] is defined with 1 parameters at &apos;org.amazon.stepdefs.HomePageStepDef.i_click_on_hamburger_menu_bar(io.cucumber.java.Scenario)&apos;.&#10;However, the gherkin step has 0 arguments.&#10;Step text: I click on hamburger menu bar" type="io.cucumber.core.exception.CucumberException">io.cucumber.core.exception.CucumberException: 
+Step [I click on hamburger menu bar] is defined with 1 parameters at 'org.amazon.stepdefs.HomePageStepDef.i_click_on_hamburger_menu_bar(io.cucumber.java.Scenario)'.
+However, the gherkin step has 0 arguments.
+Step text: I click on hamburger menu bar
+</failure>
+    <system-out><![CDATA[
+Scenario: List all the Samsung phones with specification as Camera Resolution - 20 MP and above, Model Year – 2023 & Price Range between £50 - £100 # ///Users/srinivastalla/Desktop/UBS/src/test/resources/features/productSearch.feature:8
+  Given I am on the Amazon home page                                                                                                                # org.amazon.stepdefs.HomePageStepDef.iAmOnTheAmazonHomePage()
+  And I click on hamburger menu bar                                                                                                                 # org.amazon.stepdefs.HomePageStepDef.i_click_on_hamburger_menu_bar(io.cucumber.java.Scenario)
+      io.cucumber.core.exception.CucumberException: Step [I click on hamburger menu bar] is defined with 1 parameters at 'org.amazon.stepdefs.HomePageStepDef.i_click_on_hamburger_menu_bar(io.cucumber.java.Scenario)'.
+However, the gherkin step has 0 arguments.
+Step text: I click on hamburger menu bar
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.arityMismatch(PickleStepDefinitionMatch.java:83)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:42)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:17)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+  And I click on Electronics And Computers                                                                                                          # org.amazon.stepdefs.HomePageStepDef.i_click_on_electronics_And_Computers(io.cucumber.java.Scenario)
+  And I click on Phones and Accessories                                                                                                             # org.amazon.stepdefs.HomePageStepDef.i_click_on_phones_and_Accessories(io.cucumber.java.Scenario)
+  And I click on Mobile Phones & Smartphones                                                                                                        # org.amazon.stepdefs.PhonesAndAccessoriesPageStepDef.i_click_on_mobile_phones_smartphones(io.cucumber.java.Scenario)
+  When I select brand as "Samsung"                                                                                                                  # org.amazon.stepdefs.SmartPhonesPageStepDef.i_select_brand_as(java.lang.String,io.cucumber.java.Scenario)
+  And I select Camera Resolution as "20 MP & above"                                                                                                 # org.amazon.stepdefs.SmartPhonesPageStepDef.i_select_camera_resolution_as(java.lang.String,io.cucumber.java.Scenario)
+  And I select Model Year as "2023"                                                                                                                 # org.amazon.stepdefs.SmartPhonesPageStepDef.i_select_model_year_as(java.lang.String,io.cucumber.java.Scenario)
+  And I select Price Range between £"200" to £"250"                                                                                                 # org.amazon.stepdefs.SmartPhonesPageStepDef.i_select_price_range_between_£_to_£(java.lang.String,java.lang.String)
+  And I click on Go button                                                                                                                          # org.amazon.stepdefs.SmartPhonesPageStepDef.I_click_on_go_button(io.cucumber.java.Scenario)
+  Then I can see list of products matching search criteria                                                                                          # org.amazon.stepdefs.SearchResultPageStepDef.i_can_see_list_of_phones(io.cucumber.java.Scenario)
+  And I can see only "Samsung N" products in the results                                                                                            # org.amazon.stepdefs.SearchResultPageStepDef.i_can_see_only_samsung_products_in_the_results(java.lang.String,io.cucumber.java.Scenario)
+
+    Embedding screenshot [image/png 1423528 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Mar 24, 2024 7:25:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 123, returning the closest version; found: 122; Please update to a Selenium version that supports CDP version 123
+]]></system-err>
+  </testcase>
+</testsuite>
