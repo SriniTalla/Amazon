@@ -73,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711308498184</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Initial Commit">
+      <created>1711308623087</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1711308623087</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -105,9 +112,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="496" y="297" key="Vcs.Push.Dialog.v2" timestamp="1711308064697">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state x="496" y="295" key="Vcs.Push.Dialog.v2" timestamp="1711308644834">
+      <screen x="0" y="25" width="1792" height="1019" />
     </state>
     <state x="496" y="297" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1711308064697" />
+    <state x="496" y="295" key="Vcs.Push.Dialog.v2/0.25.1792.1019@0.25.1792.1019" timestamp="1711308644834" />
   </component>
 </project>

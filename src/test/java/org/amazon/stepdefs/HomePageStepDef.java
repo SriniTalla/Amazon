@@ -35,28 +35,20 @@ public class HomePageStepDef extends BasePage {
     }
 
     @Given("I click on hamburger menu bar")
-    public void i_click_on_hamburger_menu_bar(Scenario scenario) {
+    public void i_click_on_hamburger_menu_bar() {
         homePage.clickHamBurger();
-        TakesScreenshot ts = (TakesScreenshot) driver;
-        byte[] src = ts.getScreenshotAs(OutputType.BYTES);
-        scenario.attach(src, "image/png", "screenshot");
-
     }
 
     @And("I click on Electronics And Computers")
-    public void i_click_on_electronics_And_Computers(Scenario scenario){
+    public void i_click_on_electronics_And_Computers(){
         homePage.clickElectronics();
-        TakesScreenshot ts = (TakesScreenshot) driver;
-        byte[] src = ts.getScreenshotAs(OutputType.BYTES);
-        scenario.attach(src, "image/png", "screenshot");
+
     }
 
     @And("I click on Phones and Accessories")
-    public void i_click_on_phones_and_Accessories(Scenario scenario){
+    public void i_click_on_phones_and_Accessories(){
         homePage.clickPhones();
-        TakesScreenshot ts = (TakesScreenshot) driver;
-        byte[] src = ts.getScreenshotAs(OutputType.BYTES);
-        scenario.attach(src, "image/png", "screenshot");
+
     }
 
 }

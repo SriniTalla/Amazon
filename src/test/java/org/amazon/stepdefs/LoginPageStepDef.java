@@ -27,7 +27,7 @@ public class LoginPageStepDef extends BasePage{
         loginPage.clickSignIn();
         loginPage.enterEmail("TestUser@yahoo.com");
         loginPage.clickContinueButton();
-        loginPage.enterPassword("testing@1009");
+        loginPage.enterPassword("Vihaan@1009");
     }
 
     @When("I click on the signin button")

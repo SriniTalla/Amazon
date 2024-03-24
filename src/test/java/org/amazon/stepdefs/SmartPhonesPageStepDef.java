@@ -14,25 +14,17 @@ public class SmartPhonesPageStepDef extends BasePage {
     private SmartPhonesPage smartPhonesPage = new SmartPhonesPage(driver);
 
     @When("I select brand as {string}")
-    public void i_select_brand_as(String brandName, Scenario scenario) {
+    public void i_select_brand_as(String brandName) {
        smartPhonesPage.selectBrand(brandName);
-        TakesScreenshot ts = (TakesScreenshot) driver;
-        byte[] src = ts.getScreenshotAs(OutputType.BYTES);
-        scenario.attach(src, "image/png", "screenshot");
     }
     @When("I select Camera Resolution as {string}")
-    public void i_select_camera_resolution_as(String cameraResolution, Scenario scenario) {
+    public void i_select_camera_resolution_as(String cameraResolution) {
         smartPhonesPage.selectCameraResolution(cameraResolution);
-        TakesScreenshot ts = (TakesScreenshot) driver;
-        byte[] src = ts.getScreenshotAs(OutputType.BYTES);
-        scenario.attach(src, "image/png", "screenshot");
+
     }
     @When("I select Model Year as {string}")
-    public void i_select_model_year_as(String year, Scenario scenario) {
+    public void i_select_model_year_as(String year) {
         smartPhonesPage.selectModelYear(year);
-        TakesScreenshot ts = (TakesScreenshot) driver;
-        byte[] src = ts.getScreenshotAs(OutputType.BYTES);
-        scenario.attach(src, "image/png", "screenshot");
     }
     @When("I select Price Range between £{string} to £{string}")
     public void i_select_price_range_between_£_to_£(String minPriceRange, String maxPriceRange) {
@@ -40,11 +32,9 @@ public class SmartPhonesPageStepDef extends BasePage {
         smartPhonesPage.enterMaxPriceRange(maxPriceRange);
     }
     @And("I click on Go button")
-    public void I_click_on_go_button(Scenario scenario){
+    public void I_click_on_go_button(){
         smartPhonesPage.clickOnGoButton();
-        TakesScreenshot ts = (TakesScreenshot) driver;
-        byte[] src = ts.getScreenshotAs(OutputType.BYTES);
-        scenario.attach(src, "image/png", "screenshot");
+
     }
 
 }
