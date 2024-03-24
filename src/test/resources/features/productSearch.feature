@@ -17,7 +17,7 @@ Feature: Amazon Search
     And I select Price Range between £"200" to £"250"
     And I click on Go button
     Then I can see list of products matching search criteria
-    And I can see only "Samsung" products in the results
+    And I can see only "Onida" products in the results
 
 
 
