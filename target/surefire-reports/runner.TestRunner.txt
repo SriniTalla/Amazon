@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: runner.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 29.526 sec <<< FAILURE!
-List all the Samsung phones with specification as Camera Resolution - 20 MP and above, Model Year – 2023 & Price Range between £200 - £250 #2(Amazon Search)  Time elapsed: 14.2 sec  <<< FAILURE!
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 32.461 sec <<< FAILURE!
+List all the Samsung phones with specification as Camera Resolution - 20 MP and above, Model Year – 2023 & Price Range between £200 - £250 #2(Amazon Search)  Time elapsed: 14.67 sec  <<< FAILURE!
 java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:87)
 	at org.junit.Assert.assertTrue(Assert.java:42)

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="1" name="runner.TestRunner" time="29.092" errors="0" skipped="0">
+<testsuite tests="2" failures="1" name="runner.TestRunner" time="31.92" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
-    <property name="java.vm.version" value="21.0.1"/>
-    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/21.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="java.vm.version" value="21.0.2"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/21.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
     <property name="maven.multiModuleProjectDirectory" value="/Users/srinivastalla/24032024/Amazon"/>
     <property name="java.vm.vendor" value="Homebrew"/>
     <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
@@ -15,7 +15,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="/Users/srinivastalla/24032024/Amazon"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
-    <property name="java.runtime.version" value="21.0.1"/>
+    <property name="java.runtime.version" value="21.0.2"/>
     <property name="os.arch" value="x86_64"/>
     <property name="java.io.tmpdir" value="/var/folders/kf/knfk239s7t1dpllht1sx30vc0000gn/T/"/>
     <property name="line.separator" value="
@@ -44,17 +44,17 @@
     <property name="java.vm.specification.version" value="21"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
-    <property name="java.home" value="/usr/local/Cellar/openjdk/21.0.1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/21.0.2/libexec/openjdk.jdk/Contents/Home"/>
     <property name="apple.awt.application.name" value="Launcher"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="java.version" value="21.0.1"/>
+    <property name="java.version" value="21.0.2"/>
     <property name="native.encoding" value="UTF-8"/>
     <property name="java.vendor" value="Homebrew"/>
     <property name="maven.home" value="/usr/local/Cellar/maven/3.6.3_1/libexec"/>
     <property name="file.separator" value="/"/>
-    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.version.date" value="2024-01-16"/>
     <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -62,8 +62,8 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase classname="Amazon Search" name="List all the Samsung phones with specification as Camera Resolution - 20 MP and above, Model Year – 2023 &amp; Price Range between £200 - £250 #1" time="14.892"/>
-  <testcase classname="Amazon Search" name="List all the Samsung phones with specification as Camera Resolution - 20 MP and above, Model Year – 2023 &amp; Price Range between £200 - £250 #2" time="14.2">
+  <testcase classname="Amazon Search" name="List all the Samsung phones with specification as Camera Resolution - 20 MP and above, Model Year – 2023 &amp; Price Range between £200 - £250 #1" time="17.25"/>
+  <testcase classname="Amazon Search" name="List all the Samsung phones with specification as Camera Resolution - 20 MP and above, Model Year – 2023 &amp; Price Range between £200 - £250 #2" time="14.67">
     <failure type="java.lang.AssertionError">java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:87)
 	at org.junit.Assert.assertTrue(Assert.java:42)
@@ -74,7 +74,7 @@
 </failure>
     <system-out>
 Scenario Outline: List all the Samsung phones with specification as Camera Resolution - 20 MP and above, Model Year – 2023 &amp; Price Range between £200 - £250 &amp;#27;[90m# src/test/resources/features/productSearch.feature:24&amp;#27;[0m
-2024-03-25 12:58:12 INFO  Hooks:27 - Test Started --&gt; List all the Samsung phones with specification as Camera Resolution - 20 MP and above, Model Year – 2023 &amp; Price Range between £200 - £250
+2024-03-25 21:18:30 INFO  Hooks:27 - Test Started --&gt; List all the Samsung phones with specification as Camera Resolution - 20 MP and above, Model Year – 2023 &amp; Price Range between £200 - £250
   &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mI am on the Amazon home page&amp;#27;[0m                                                                                                                         &amp;#27;[90m# org.amazon.stepdefs.HomePageStepDef.iAmOnTheAmazonHomePage()&amp;#27;[0m
   &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI click on hamburger menu bar&amp;#27;[0m                                                                                                                          &amp;#27;[90m# org.amazon.stepdefs.HomePageStepDef.i_click_on_hamburger_menu_bar()&amp;#27;[0m
   &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI click on Electronics And Computers&amp;#27;[0m                                                                                                                   &amp;#27;[90m# org.amazon.stepdefs.HomePageStepDef.i_click_on_electronics_And_Computers()&amp;#27;[0m
@@ -91,8 +91,8 @@ testing
 2 -&gt; Samsung Galaxy A54 128GB 5G Mobile Phone - Awesome Lime, SM-A546BLGCEUB/1
 3 -&gt; Samsung Galaxy A54 5G, unlocked, Graphite (German Version)
 4 -&gt; Samsung Galaxy A54 128GB 5G Mobile Phone - Awesome Violet, SM-A546BLVCEUB
-5 -&gt; Samsung Galaxy M34 5G (Waterfall Blue, 6GB, 128GB Storage) | 120Hz sAMOLED Display | 50MP Triple No Shake Cam | 6000 mAh Battery | 12GB RAM with RAM Plus | Android 13 | Without Charger
-6 -&gt; Samsung Galaxy A25 5G 16,5 cm (6.5&quot;) USB Type-C 6 Go 128 Go 5000 mAh Jaune
+5 -&gt; Samsung Galaxy A25 5G 16,5 cm (6.5&quot;) USB Type-C 6 Go 128 Go 5000 mAh Jaune
+6 -&gt; Samsung Galaxy M34 5G (Waterfall Blue, 6GB, 128GB Storage) | 120Hz sAMOLED Display | 50MP Triple No Shake Cam | 6000 mAh Battery | 12GB RAM with RAM Plus | Android 13 | Without Charger
 
     
     0 -&gt; Samsung Galaxy A54 5G 128GB Awesome White 16,31cm (6,4&quot;) Super AMOLED Display, Android 13, 50MP Triple-Kamera
@@ -100,8 +100,8 @@ testing
     2 -&gt; Samsung Galaxy A54 128GB 5G Mobile Phone - Awesome Lime, SM-A546BLGCEUB/1
     3 -&gt; Samsung Galaxy A54 5G, unlocked, Graphite (German Version)
     4 -&gt; Samsung Galaxy A54 128GB 5G Mobile Phone - Awesome Violet, SM-A546BLVCEUB
-    5 -&gt; Samsung Galaxy M34 5G (Waterfall Blue, 6GB, 128GB Storage) | 120Hz sAMOLED Display | 50MP Triple No Shake Cam | 6000 mAh Battery | 12GB RAM with RAM Plus | Android 13 | Without Charger
-    6 -&gt; Samsung Galaxy A25 5G 16,5 cm (6.5&quot;) USB Type-C 6 Go 128 Go 5000 mAh Jaune
+    5 -&gt; Samsung Galaxy A25 5G 16,5 cm (6.5&quot;) USB Type-C 6 Go 128 Go 5000 mAh Jaune
+    6 -&gt; Samsung Galaxy M34 5G (Waterfall Blue, 6GB, 128GB Storage) | 120Hz sAMOLED Display | 50MP Triple No Shake Cam | 6000 mAh Battery | 12GB RAM with RAM Plus | Android 13 | Without Charger
 
   &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI can see list of products matching search criteria&amp;#27;[0m                                                                                                   &amp;#27;[90m# org.amazon.stepdefs.SearchResultPageStepDef.i_can_see_list_of_phones()&amp;#27;[0m
   &amp;#27;[31mAnd &amp;#27;[0m&amp;#27;[31mI can see only &amp;#27;[0m&amp;#27;[31m&amp;#27;[1m&quot;Iphone&quot;&amp;#27;[0m&amp;#27;[31m products in the results&amp;#27;[0m                                                                                                        &amp;#27;[90m# org.amazon.stepdefs.SearchResultPageStepDef.i_can_see_only_samsung_products_in_the_results(java.lang.String)&amp;#27;[0m
@@ -114,11 +114,11 @@ testing
 	at ✽.I can see only &quot;Iphone&quot; products in the results(file:///Users/srinivastalla/24032024/Amazon/src/test/resources/features/productSearch.feature:20)
 &amp;#27;[0m
 
-    Embedding screenshot [image/png 1627873 bytes]
+    Embedding screenshot [image/png 1650227 bytes]
 
-2024-03-25 12:58:25 INFO  Hooks:41 - Test failed List all the Samsung phones with specification as Camera Resolution - 20 MP and above, Model Year – 2023 &amp; Price Range between £200 - £250
+2024-03-25 21:18:44 INFO  Hooks:41 - Test failed List all the Samsung phones with specification as Camera Resolution - 20 MP and above, Model Year – 2023 &amp; Price Range between £200 - £250
 </system-out>
-    <system-err>Mar 25, 2024 12:58:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err>Mar 25, 2024 9:18:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 123, returning the closest version; found: 122; Please update to a Selenium version that supports CDP version 123
 </system-err>
   </testcase>
