@@ -11,7 +11,7 @@ This repository contains a Selenium-based BDD framework using Cucumber for autom
 - Provides reusable step definitions for common actions.
 - Generates readable HTML reports for test execution results.
 - Supports integration with various Continuous Integration (CI) tools.
-- Implimented Page Object Model for code readability and reusability. 
+- Implemented Page Object Model for code readability and reusability. 
 
 ## Prerequisites
 
