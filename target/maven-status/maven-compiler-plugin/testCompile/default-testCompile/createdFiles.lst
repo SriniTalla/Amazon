@@ -1,7 +1,13 @@
 org/amazon/stepdefs/HomePageStepDef.class
 runner/TestRunner.class
-MyHooks/Hooks.class
-org/amazon/stepdefs/LoginPageStepDef.class
 org/amazon/stepdefs/PhonesAndAccessoriesPageStepDef.class
 org/amazon/stepdefs/SearchResultPageStepDef.class
+pages/HomePage.class
+pages/BasePage.class
 org/amazon/stepdefs/SmartPhonesPageStepDef.class
+org/amazon/stepdefs/LoginPageStepDef.class
+pages/SearchResultPage.class
+pages/PhonesAndAccessoriesPage.class
+org/amazon/stepdefs/Hooks.class
+pages/SmartPhonesPage.class
+pages/LoginPage.class

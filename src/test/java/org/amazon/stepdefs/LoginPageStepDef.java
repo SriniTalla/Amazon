@@ -3,10 +3,10 @@ package org.amazon.stepdefs;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 import io.cucumber.java.en.Then;
-import org.amazon.pages.BasePage;
-import org.amazon.pages.LoginPage;
+import org.junit.Assert;
+import pages.BasePage;
+import pages.LoginPage;
 import org.openqa.selenium.By;
-import org.testng.Assert;
 
 import java.time.Duration;
 
@@ -37,7 +37,8 @@ public class LoginPageStepDef extends BasePage{
 
     @Then("I should be logged in successfully")
     public void i_should_be_logged_in_successfully() {
-        Assert.assertEquals(loginPage.checkSignInConfirmation(),true);
+
+        Assert.assertTrue(loginPage.checkSignInConfirmation());
     }
 
     @Given("I have entered invalid {string}")

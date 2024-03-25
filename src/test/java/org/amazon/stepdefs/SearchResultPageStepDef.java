@@ -1,11 +1,8 @@
 package org.amazon.stepdefs;
 
-import io.cucumber.java.Scenario;
-import org.amazon.pages.BasePage;
-import org.amazon.pages.SearchResultPage;
+import pages.BasePage;
+import pages.SearchResultPage;
 import io.cucumber.java.en.Then;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 
 public class SearchResultPageStepDef extends BasePage {
 

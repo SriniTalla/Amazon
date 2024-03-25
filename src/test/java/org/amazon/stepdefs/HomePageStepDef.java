@@ -1,20 +1,10 @@
 package org.amazon.stepdefs;
 
-import io.cucumber.java.After;
-import io.cucumber.java.Before;
-import io.cucumber.java.Scenario;
 import io.cucumber.java.en.Given;
-import io.cucumber.java.en.When;
-import io.cucumber.java.en.Then;
 import io.cucumber.java.en.And;
-import org.amazon.pages.BasePage;
-import org.amazon.pages.HomePage;
+import pages.BasePage;
+import pages.HomePage;
 import org.openqa.selenium.By;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.Assert;
 
 import java.time.Duration;
 
@@ -42,13 +32,11 @@ public class HomePageStepDef extends BasePage {
     @And("I click on Electronics And Computers")
     public void i_click_on_electronics_And_Computers(){
         homePage.clickElectronics();
-
     }
 
     @And("I click on Phones and Accessories")
     public void i_click_on_phones_and_Accessories(){
         homePage.clickPhones();
-
     }
 
 }

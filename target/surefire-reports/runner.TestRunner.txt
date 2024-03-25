@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 29.526 sec <<< FAILURE!
+List all the Samsung phones with specification as Camera Resolution - 20 MP and above, Model Year – 2023 & Price Range between £200 - £250 #2(Amazon Search)  Time elapsed: 14.2 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at pages.SearchResultPage.verifyProductDisplayed(SearchResultPage.java:36)
+	at org.amazon.stepdefs.SearchResultPageStepDef.i_can_see_only_samsung_products_in_the_results(SearchResultPageStepDef.java:20)
+	at ✽.I can see only "Iphone" products in the results(file:///Users/srinivastalla/24032024/Amazon/src/test/resources/features/productSearch.feature:20)
+

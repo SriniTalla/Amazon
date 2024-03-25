@@ -1,13 +1,9 @@
 package org.amazon.stepdefs;
 
-import io.cucumber.java.Scenario;
 import io.cucumber.java.en.And;
-import io.cucumber.java.en.Then;
-import org.amazon.pages.BasePage;
-import org.amazon.pages.SmartPhonesPage;
+import pages.BasePage;
+import pages.SmartPhonesPage;
 import io.cucumber.java.en.When;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 
 public class SmartPhonesPageStepDef extends BasePage {
 

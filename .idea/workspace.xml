@@ -20,29 +20,103 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f35bb2a-dc4b-4374-8314-0f71f6a66d5f" name="Default Changelist" comment="Initial Commit">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_junit_7_16_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Amazon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Amazon.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_82.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_12_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_12_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_12_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_12_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_5_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_23_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_30_1_1_jre.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_33_0_0_jre.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_2_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_owasp_java_html_sanitizer_owasp_java_html_sanitizer_20211018_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_testng_7_16_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_10_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_masterthought_cucumber_reporting_5_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_12_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_engine_core_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_41_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_utils_3_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_14_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_3_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UBS.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/amazon/pages/BasePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/amazon/pages/HomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/amazon/pages/LoginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/amazon/pages/PhonesAndAccessoriesPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/amazon/pages/SearchResultPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/amazon/pages/SmartPhonesPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MyHooks/Hooks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/amazon/stepdefs/HomePageStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/amazon/stepdefs/HomePageStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/amazon/stepdefs/LoginPageStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/amazon/stepdefs/LoginPageStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/amazon/stepdefs/PhonesAndAccessoriesPageStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/amazon/stepdefs/PhonesAndAccessoriesPageStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/amazon/stepdefs/SearchResultPageStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/amazon/stepdefs/SearchResultPageStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/amazon/stepdefs/SmartPhonesPageStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/amazon/stepdefs/SmartPhonesPageStepDef.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/productSearch.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/productSearch.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/amazon/pages/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/amazon/pages/BasePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/amazon/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/amazon/pages/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/amazon/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/amazon/pages/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/amazon/pages/PhonesAndAccessoriesPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/amazon/pages/PhonesAndAccessoriesPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/amazon/pages/SearchResultPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/amazon/pages/SearchResultPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/amazon/pages/SmartPhonesPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/amazon/pages/SmartPhonesPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-reports.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Amazon Parallel Suite/Login Page Tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Amazon Parallel Suite/Login Page Tests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Amazon Parallel Suite/Login Page Tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Amazon Parallel Suite/Login Page Tests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-runner.TestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-runner.TestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Amazon Parallel Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Amazon Parallel Suite/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Amazon Parallel Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Amazon Parallel Suite/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MyHooks/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MyHooks/Hooks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/amazon/pages/BasePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/amazon/pages/HomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/amazon/pages/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/amazon/pages/PhonesAndAccessoriesPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/amazon/pages/SearchResultPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/amazon/pages/SmartPhonesPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Amazon Parallel Suite/Login Page Tests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Amazon Parallel Suite/Login Page Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Amazon Parallel Suite/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-3.6.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-runner.TestRunner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Amazon Parallel Suite/Login Page Tests.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Amazon Parallel Suite/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Amazon Parallel Suite/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Amazon Parallel Suite/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Amazon Parallel Suite/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Amazon Parallel Suite/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Amazon Parallel Suite/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Amazon Parallel Suite/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Amazon Parallel Suite/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Amazon Parallel Suite/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Amazon Parallel Suite/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/MyHooks/Hooks.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/features/productSearch.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/productSearch.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/org/amazon/stepdefs/HomePageStepDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/amazon/stepdefs/HomePageStepDef.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/org/amazon/stepdefs/LoginPageStepDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/amazon/stepdefs/LoginPageStepDef.class" afterDir="false" />
@@ -50,6 +124,7 @@
       <change beforePath="$PROJECT_DIR$/target/test-classes/org/amazon/stepdefs/SearchResultPageStepDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/amazon/stepdefs/SearchResultPageStepDef.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/org/amazon/stepdefs/SmartPhonesPageStepDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/amazon/stepdefs/SmartPhonesPageStepDef.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/runner/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runner/TestRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testng.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,9 +150,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunManager" selected="Cucumber Java.Feature: productSearch">
@@ -176,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711310047347</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Happy Path with correct feature file path">
+      <created>1711319228436</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1711319228436</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -207,35 +290,41 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Happy Path" />
     <MESSAGE value="Error Scenario" />
-    <option name="LAST_COMMIT_MESSAGE" value="Error Scenario" />
+    <MESSAGE value="Happy Path with correct feature file path" />
+    <option name="LAST_COMMIT_MESSAGE" value="Happy Path with correct feature file path" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="384" y="113" key="#Project_Structure" timestamp="1711309531886">
-      <screen x="0" y="25" width="1792" height="1021" />
-    </state>
-    <state x="384" y="113" key="#Project_Structure/0.25.1792.1021@0.25.1792.1021" timestamp="1711309531886" />
-    <state width="1750" height="447" key="GridCell.Tab.0.bottom" timestamp="1711318593404">
+    <state x="384" y="97" key="#Project_Structure" timestamp="1711370448389">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="447" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1711318593404" />
+    <state x="384" y="97" key="#Project_Structure/0.0.1792.1120@0.0.1792.1120" timestamp="1711370448389" />
+    <state x="384" y="113" key="#Project_Structure/0.25.1792.1021@0.25.1792.1021" timestamp="1711309531886" />
+    <state width="1750" height="447" key="GridCell.Tab.0.bottom" timestamp="1711369161193">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="447" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1711369161193" />
+    <state width="1750" height="447" key="GridCell.Tab.0.bottom/0.25.1792.1017@0.25.1792.1017" timestamp="1711320299515" />
     <state width="1748" height="275" key="GridCell.Tab.0.bottom/0.25.1792.1021@0.25.1792.1021" timestamp="1711309604751" />
     <state width="1748" height="275" key="GridCell.Tab.0.bottom/0.25.1792.1023@0.25.1792.1023" timestamp="1711309843150" />
-    <state width="1750" height="447" key="GridCell.Tab.0.center" timestamp="1711318593403">
+    <state width="1750" height="447" key="GridCell.Tab.0.center" timestamp="1711369161192">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="447" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1711318593403" />
+    <state width="1750" height="447" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1711369161192" />
+    <state width="1750" height="447" key="GridCell.Tab.0.center/0.25.1792.1017@0.25.1792.1017" timestamp="1711320299514" />
     <state width="1748" height="275" key="GridCell.Tab.0.center/0.25.1792.1021@0.25.1792.1021" timestamp="1711309604750" />
     <state width="1748" height="275" key="GridCell.Tab.0.center/0.25.1792.1023@0.25.1792.1023" timestamp="1711309843150" />
-    <state width="1750" height="447" key="GridCell.Tab.0.left" timestamp="1711318593402">
+    <state width="1750" height="447" key="GridCell.Tab.0.left" timestamp="1711369161191">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="447" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1711318593402" />
+    <state width="1750" height="447" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1711369161191" />
+    <state width="1750" height="447" key="GridCell.Tab.0.left/0.25.1792.1017@0.25.1792.1017" timestamp="1711320299514" />
     <state width="1748" height="275" key="GridCell.Tab.0.left/0.25.1792.1021@0.25.1792.1021" timestamp="1711309604750" />
     <state width="1748" height="275" key="GridCell.Tab.0.left/0.25.1792.1023@0.25.1792.1023" timestamp="1711309843150" />
-    <state width="1750" height="447" key="GridCell.Tab.0.right" timestamp="1711318593403">
+    <state width="1750" height="447" key="GridCell.Tab.0.right" timestamp="1711369161193">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="447" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1711318593403" />
+    <state width="1750" height="447" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1711369161193" />
+    <state width="1750" height="447" key="GridCell.Tab.0.right/0.25.1792.1017@0.25.1792.1017" timestamp="1711320299515" />
     <state width="1748" height="275" key="GridCell.Tab.0.right/0.25.1792.1021@0.25.1792.1021" timestamp="1711309604751" />
     <state width="1748" height="275" key="GridCell.Tab.0.right/0.25.1792.1023@0.25.1792.1023" timestamp="1711309843150" />
     <state x="496" y="295" key="Vcs.Push.Dialog.v2" timestamp="1711308644834">
@@ -243,5 +332,9 @@
     </state>
     <state x="496" y="297" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1711308064697" />
     <state x="496" y="295" key="Vcs.Push.Dialog.v2/0.25.1792.1019@0.25.1792.1019" timestamp="1711308644834" />
+    <state x="342" y="220" key="new project wizard" timestamp="1711367836307">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="342" y="220" key="new project wizard/0.0.1792.1120@0.0.1792.1120" timestamp="1711367836307" />
   </component>
 </project>
