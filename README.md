@@ -19,12 +19,12 @@ This repository contains a Selenium-based BDD framework using Cucumber for autom
 
 ## HTML Reports
 
-<img width="1511" alt="image" src="https://github.com/naveenkanak2024/selenium-cucumber-tests/assets/164809276/73e78763-ad29-4c91-aee4-ba911426dcb8">
-
-<img width="1511" alt="image" src="https://github.com/naveenkanak2024/selenium-cucumber-tests/assets/164809276/fe932795-e043-4930-a924-f719cd97276c">
-
-<img width="1511" alt="image" src="https://github.com/naveenkanak2024/selenium-cucumber-tests/assets/164809276/24abd917-4c78-4588-b11c-6d1c584194fa">
+<img width="1792" alt="image" src="https://github.com/SriniTalla/Amazon/assets/22282628/546d9e01-b083-4d53-95e9-4aa7b265de8b">
+<img width="1792" alt="image" src="https://github.com/SriniTalla/Amazon/assets/22282628/eaef8e9a-1186-4b36-a187-3d3cdf2c8663">
+<img width="1792" alt="image" src="https://github.com/SriniTalla/Amazon/assets/22282628/9f3649ec-8901-4f98-96dd-d1d6def16808">
 
 ## HTML Logs
 
-<img width="1511" alt="image" src="https://github.com/naveenkanak2024/selenium-cucumber-tests/assets/164809276/6957485f-6100-43f4-b65c-75f25b0db9ad">
+<img width="1792" alt="image" src="https://github.com/SriniTalla/Amazon/assets/22282628/035dc958-f4d8-4b48-a0f5-dbd528db2f1b">
+
+
