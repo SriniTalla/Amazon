@@ -15,6 +15,7 @@ public class BasePage {
 
     public static WebDriver driver;
     public static Scenario scenario;
+
     public WebElement waitForElement(WebElement element){
         Wait<WebDriver> wait = new FluentWait<>(driver)
                 .withTimeout(Duration.ofSeconds(10))
@@ -24,14 +25,12 @@ public class BasePage {
     }
 
     public void mouseClick(WebElement clickable){
-
         new Actions(driver)
                 .click(clickable)
                 .perform();
     }
 
     public WebElement moveToElement(WebElement element){
-
         Actions actions = new Actions(driver);
         actions.moveToElement(element);
         actions.perform();

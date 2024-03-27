@@ -14,6 +14,7 @@ public class PhonesAndAccessoriesPage extends BasePage{
         this.driver = driver;
     }
 
+    //Page Methods/Actions
     public void clickOnMobileAndSmartPhoneLink(){
         WebElement mobileAndSmartPhoneElement = driver.findElement(mobileAndSmartPhoneLinkLocator);
         waitForElement(mobileAndSmartPhoneElement).click();

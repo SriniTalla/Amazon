@@ -16,12 +16,12 @@ public class SmartPhonesPageStepDef extends BasePage {
     @When("I select Camera Resolution as {string}")
     public void i_select_camera_resolution_as(String cameraResolution) {
         smartPhonesPage.selectCameraResolution(cameraResolution);
-
     }
     @When("I select Model Year as {string}")
     public void i_select_model_year_as(String year) {
         smartPhonesPage.selectModelYear(year);
     }
+
     @When("I select Price Range between £{string} to £{string}")
     public void i_select_price_range_between_£_to_£(String minPriceRange, String maxPriceRange) {
         smartPhonesPage.enterMinPriceRange(minPriceRange);

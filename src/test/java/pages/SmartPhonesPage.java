@@ -11,10 +11,12 @@ public class SmartPhonesPage extends BasePage{
         this.driver = driver;
     }
 
+    //By Locators
     private By goButtonLocator = By.xpath("//span[input[@type=\"submit\"]]//span[contains(text(),'Go')]");
     private By minimumPriseRangeTextBoxLocator = By.id("low-price");
     private By maximumPriseRangeTextBoxLocator = By.id("high-price");
 
+    //Page Methods/Actions
     public void selectBrand(String brandName){
         By brandNameCheckboxLocator = By.xpath("//input[@type='checkbox'][@aria-labelledby='"+brandName+"']");
         WebElement brandNameCheckboxElement = driver.findElement(brandNameCheckboxLocator);
@@ -24,7 +26,6 @@ public class SmartPhonesPage extends BasePage{
     }
 
     public void selectModelYear(String year){
-
         WebElement modelYear = driver.findElement(By.xpath("//li[@aria-label=\"2023\"]//a"));
         waitForElement(modelYear);
         moveToElement(modelYear);

@@ -19,6 +19,7 @@ public class SearchResultPage extends BasePage{
         this.driver = driver;
     }
 
+    //Page Methods/Actions
     public void printProductSearchResult(){
         String messageToLog = "";
         List<WebElement> elements = driver.findElements(searchResultHeadings);
@@ -27,13 +28,12 @@ public class SearchResultPage extends BasePage{
             System.out.println(i+" -> "+elements.get(i).getText());
             messageToLog = messageToLog+"\n"+i+" -> "+elements.get(i).getText();
         }
-
         scenario.log(messageToLog);
     }
 
     public void verifyProductDisplayed(String brandName) {
         for (int i = 0; i <productSearchResult.size(); i++) {
-            Assert.assertTrue(productSearchResult.get(i).contains(brandName));
+            Assert.assertTrue(productSearchResult.get(i).toLowerCase().contains(brandName.toLowerCase()));
         }
     }
 }

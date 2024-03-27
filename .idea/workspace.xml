@@ -20,7 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f35bb2a-dc4b-4374-8314-0f71f6a66d5f" name="Default Changelist" comment="Initial Commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application.html" beforeDir="false" afterPath="$PROJECT_DIR$/application.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium.out" beforeDir="false" afterPath="$PROJECT_DIR$/selenium.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/amazon/stepdefs/SearchResultPageStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/amazon/stepdefs/SearchResultPageStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/amazon/stepdefs/SmartPhonesPageStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/amazon/stepdefs/SmartPhonesPageStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/PhonesAndAccessoriesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/PhonesAndAccessoriesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/SearchResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/SearchResultPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/SmartPhonesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/SmartPhonesPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/productSearch.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/productSearch.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-runner.TestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-runner.TestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/runner.TestRunner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/runner.TestRunner.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/runner/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runner/TestRunner.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,11 +64,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: productSearch">
+  <component name="RunManager" selected="JUnit.TestRunner">
     <configuration name="All Features in: Amazon" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1" />
       <option name="FILE_PATH" value="$PROJECT_DIR$" />
@@ -92,8 +106,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Amazon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runner" />
+      <option name="MAIN_CLASS_NAME" value="runner.TestRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="Cucumber Java.Feature: productSearch" />
         <item itemvalue="Cucumber Java.All Features in: Amazon" />
       </list>
@@ -171,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711401698958</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Json Report Latest">
+      <created>1711401938699</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1711401938699</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -205,13 +242,14 @@
     <MESSAGE value="Happy Path with correct feature file path" />
     <MESSAGE value="First commit" />
     <MESSAGE value="Json Report" />
-    <option name="LAST_COMMIT_MESSAGE" value="Json Report" />
+    <MESSAGE value="Json Report Latest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Json Report Latest" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="384" y="97" key="#Project_Structure" timestamp="1711370448389">
+    <state x="384" y="97" key="#Project_Structure" timestamp="1711534601318">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="384" y="97" key="#Project_Structure/0.0.1792.1120@0.0.1792.1120" timestamp="1711370448389" />
+    <state x="384" y="97" key="#Project_Structure/0.0.1792.1120@0.0.1792.1120" timestamp="1711534601318" />
     <state x="384" y="113" key="#Project_Structure/0.25.1792.1021@0.25.1792.1021" timestamp="1711309531886" />
     <state width="1750" height="447" key="GridCell.Tab.0.bottom" timestamp="1711369161193">
       <screen x="0" y="0" width="1792" height="1120" />

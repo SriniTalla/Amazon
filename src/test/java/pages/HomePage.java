@@ -32,7 +32,6 @@ public class HomePage  extends BasePage{
         WebElement phones = driver.findElement(phoneAndAccessories);
         waitForElement(phones);
         mouseClick(phones);
-    System.out.println("testing");
-
+        System.out.println("testing");
     }
 }
