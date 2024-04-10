@@ -20,7 +20,7 @@ Feature: Amazon Search
     And I can see only "<expectedBrand>" products in the results
     Examples:
       | brandName | cameraResolution | modelYear | minPrice | maxPrice | expectedBrand |
-      | Samsung   | 20 MP & above    | 2023      | 200      | 250      | Samsung       |
+      | Samsung   | 20 MP & above    | 2023      | 100      | 200      | Samsung       |
       | Samsung   | 20 MP & above    | 2023      | 200      | 250      | Iphone        |
 
 

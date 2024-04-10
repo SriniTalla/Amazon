@@ -5,7 +5,6 @@ import io.cucumber.java.en.And;
 import pages.BasePage;
 import pages.HomePage;
 import org.openqa.selenium.By;
-
 import java.time.Duration;
 
 public class HomePageStepDef extends BasePage {

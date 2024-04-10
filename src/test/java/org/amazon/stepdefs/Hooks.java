@@ -33,13 +33,14 @@ public class Hooks extends BasePage{
     public void tearDown(Scenario scenario){
 
         if (scenario.isFailed()) {
-
             TakesScreenshot ts = (TakesScreenshot) driver;
-
             byte[] src = ts.getScreenshotAs(OutputType.BYTES);
             scenario.attach(src, "image/png", "screenshot");
             logger.info("Test failed "+scenario.getName());
         }else {
+//            TakesScreenshot ts = (TakesScreenshot) driver;
+//            byte[] src = ts.getScreenshotAs(OutputType.BYTES);
+//            scenario.attach(src, "image/png", "screenshot");
             logger.info("Test Pass "+scenario.getName());
         }
 
